@@ -1,0 +1,225 @@
+.sinup_page{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    background-color:rgba(15,15,15,255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.circle-one{
+
+    width: 151px;
+    height: 146px;
+    position: absolute;
+    bottom: 0;
+    background-color: rgba(25,0,97);
+    top: 128px;
+    border-radius: 114px;
+    top: -70px;
+    left: -155px;
+    z-index: -2;
+}
+#circle-two{
+    position: absolute;
+    margin: 0px;
+    left: 172px;
+    top: 372px;
+}
+#circle{
+    position: absolute;
+    left: 180px;
+    z-index: -1;
+    top: 338px;
+    
+}
+.content-area{
+    height: 489px ;
+    width:803px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color:transparent;
+}
+.content{
+    color: white;
+    margin: 0px;
+}
+.lower-text{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+}
+.lower-text>hr{
+height: 1px;
+width: 650px;
+background-color: transparent;
+border: none;
+border-top: 3px dotted grey;
+}
+.lower-text>button{
+    width: 108px;
+    height: 65px;
+    background: transparent;
+    color: white;
+    font-size: 14px;
+    border: 2px solid white;
+}
+.sinup-text{
+    display: flex;
+    flex-direction: column;
+    background-color: transparent;
+    height: 68px;
+    width: 275px;
+    color: white;
+    align-items: start;
+}
+.inner-fields>button{
+    width: 265px;
+    height: 30px;
+    border-radius: 22px;
+    color: white;
+    background-color: rgba(27,27,174,255);
+    border: 2px solid rgba(27, 27, 174, 255);
+}
+.sinup-text>h2{
+    font-family: 'Lobster', cursive;
+    font-size: 35px;
+    margin: 0px;
+}
+.sinup-text>h4{
+    margin:0px;
+    font-weight: normal;
+    
+}
+#for-circle>#circle-two{
+    background-color: rgba(83,0,97);
+}
+#circleone{
+    background-color: rgba(83,0,97);
+}
+.text-fields{
+    height: 489px ;
+    width:343px;
+    background-color: rgba(0,0,0, 0.4);
+          z-index: 1;
+    display: flex;
+    flex-direction: column;
+    border:1px solid white;
+    border-radius: 15px;
+}
+.inner-fields{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 28px;
+    height: 434px;
+    width: 274px;
+    background-color:transparent;
+}
+input{
+    width: 264px;
+    height: 27px;
+    
+    margin-bottom: 4px;
+    margin-top: 4px;
+    border: 1px solid white;
+    border-radius: 10px; 
+    background: transparent;
+    color:white;   
+    
+}
+/* .inner-fields>section{
+    color: white;
+    font-size: 25px;
+} */
+input::placeholder{
+    color:white;
+}
+.or{
+    display: flex;
+    flex-direction: row;
+    height: 21px;
+    background-color:transparent;
+    align-items: center;
+}
+.inner-fields>.or div{
+    background: transparent;
+    height: 2px;
+    width: 128px;
+}
+.or>h3{
+    color: white;
+    margin: 0px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.text-field-footer{
+    color: white;
+    height:47px;
+    background-color:transparent;
+}
+.text-field-footer>h3{
+    margin: 0px;
+    font-size: 15px;
+    font-weight: normal;
+}
+.circle-holder{
+    position: relative;
+    z-index: 2;
+}
+.text-foot{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 7px;
+    height: 28px;
+    gap: 3px;
+
+    width: 310px;
+}
+  .text-foot>h3{
+    margin: 0px;
+    font-size: 15px;
+    font-weight: normal;
+
+    }
+    #google-icon{
+        margin-left: 117px;
+    }
+    #skiplag:hover{
+        border-color: orangered;
+    }
+    .error-message{
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        width: 284px;
+        height: 173px;
+        position: fixed;
+        justify-content: space-around;
+        left: 885px;
+        bottom: 252px;
+        border-radius: 15px;
+        align-items: center;
+        z-index: 3;
+
+    }
+    .error-message>strong{
+        font-family: cursive;
+    }
+    .error-message>button{
+        border-radius: 6px;
+        background-color: orangered;
+        width: 82px;
+        border: none;
+        height: 32px;
+        color: white;
+        font-family: cursive;
+    }
+    @media (max-width: 768px) {
+        .content-area{
+            display: none;
+        }
+    }
